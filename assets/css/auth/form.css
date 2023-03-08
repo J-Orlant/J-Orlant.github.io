@@ -1,0 +1,91 @@
+.card .form-base {
+    width: 50%;
+    height: 100%;
+    
+    padding: 33px 67px 0 67px;
+
+    background-color: #ffff;
+    border-start-start-radius: 20px;
+}
+
+.card .form-base h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #0C145A;
+
+    margin-bottom: 10px;
+}
+
+.card .form-base .txt {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+
+    color: #0C145A;
+
+    margin-bottom: 50px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0C145A;
+
+    margin-bottom: 10px;
+}
+
+.form-group .form-input {
+    padding: 13px 0 13px 26px;
+    border-radius: 100px;
+    border: 1px solid #0C145A;
+}
+
+.form-group .form-input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #CCD0DD;
+}
+
+.form-group .form-input:focus {
+    outline: none;
+}
+
+.form-base .btn {
+    width: 100%;
+    padding: 12px 0 12px 0;
+    display: block;
+    border: none;
+
+    border-radius: 100px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.form-base .btn.btn-regis {
+    background-color: #614FCC;
+    color: #ffff;
+}
+
+.form-base .btn.btn-login {
+    background-color: #E7EAF5;
+    color: #0C145A;
+}

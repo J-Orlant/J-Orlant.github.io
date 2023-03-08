@@ -1,0 +1,188 @@
+.character {
+    z-index: 10;
+    height: 125vh;
+}
+
+.content .character {
+    z-index: 1;
+    position: relative;
+
+    background-color: #ffffff;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .character .content-top {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .character .content-top .eternity {
+    width: 295px;
+    height: 100%;
+
+    background: rgba(226, 226, 226, 0.5);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .character .content-top .eternity img {
+    width: 80px;
+}
+
+.content .character .content-top .details {
+    width: 500px;
+    height: 100%;
+
+    /* padding-right: 80px;
+    padding-top: 50px; */
+
+    /* background-color: #1C1C1C; */
+    
+    /* border-top: 24px solid transparent; */
+    border-bottom: 125vh solid #1c1c1c;
+    border-left: 100px solid transparent;
+}
+
+.content .character .content-top .details .val {
+
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+
+    padding-right: 80px;
+    padding-top: 50px;
+}
+
+
+.content .character .content-top .details h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+
+    margin-bottom: 24px;
+}
+
+.content .character .content-top .details h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 60px;
+    /* or 94% */
+
+    display: flex;
+    text-align: right;
+
+    color: #614FCC;
+
+    margin-bottom: 30px;
+}
+
+.content .character .content-top .details .voice {
+    margin-top: 47px;
+    margin-bottom: 50px;
+
+    width: 320px;
+    height: 52px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .character .content-top .details .voice h4 {
+    margin: auto;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height, or 123% */
+
+    color: #24333C;
+}
+
+.content .character .content-top .details .voice .mic {
+    width: 52px;
+    height: 100%;
+
+    border: 3px solid #614FCC;
+    background-color: #44437A;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .character .content-top .details .voice .mic img {
+    width: 30px;
+    height: 30px;
+}
+
+.content .character .content-top .details .preview-skill {
+    width: 100%;
+}
+
+.content .character .content-top .details .preview-skill .prev {
+    width: 229px;
+    height: 135px;
+
+    border: 2px solid #614FCC;
+    background-color: #24333C;
+
+    margin-bottom: 20px;
+}
+
+.content .character .content-top .details .preview-skill .prev.first {
+    background-image: url("/assets/image/gif1.gif");
+    background-size: cover;
+}
+
+.content .character .content-top .details .preview-skill .prev.second {
+    background-image: url("/assets/image/gif2.gif");
+    background-size: cover;
+    margin-left: auto;
+}
+
+.content .character .content-top .details button {
+    margin-top: 15px;
+
+    width: 107px;
+    padding: 13px 22px;
+
+    background-color: #614FCC;
+    border-radius: 30px;
+
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+    outline: none;
+    border: none;
+}
+
+.content .character .image {
+    width: 100%;
+    height: 100vh;
+
+    margin-top: auto;
+
+    background-image: url("/assets/image/raiden-shogun.png");
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+

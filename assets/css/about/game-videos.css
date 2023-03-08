@@ -1,0 +1,88 @@
+.game-videos {
+    width: 100%;
+    padding-top: 182px;
+}
+
+.game-videos .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-videos .title h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.game-videos .title .arrow:nth-child(3) {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.game-videos .title .arrow {
+    width: 384px;
+    height: 14.03px;
+    background-image: url("/assets/image/arrow-single.png");
+    background-size: cover;
+}
+
+.game-videos .title h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 97px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.slide-group {
+    margin-top: 70px;
+    width: 500%;
+    height: 70vh;
+
+    display: flex;
+
+    transform: translateX(-10%);
+}
+
+.slide-group .slide {
+    width: 800px;
+    height: 400px;
+
+    border: 1px solid #FFFFFF;
+
+    background-image: url("/assets/image/video-about.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin-left: 40px;
+}
+
+.slide-indicator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-indicator .indicator {
+    width: 20px;
+    height: 20px;
+
+    background-image: url("/assets/image/star-point.webp");
+    background-size: cover;
+
+    margin-left: 10px;
+}
+
+.slide-indicator .indicator:first-child {
+    margin-left: 0;
+}
+
+.slide-indicator .indicator.active {
+    background-image: url("/assets/image/star-point-active.webp");
+}

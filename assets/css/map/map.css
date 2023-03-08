@@ -1,0 +1,180 @@
+/* body {
+    overflow-y: hidden;
+} */
+
+body {
+    position: relative;
+    height: 200vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+
+    width: 100%;
+    height: 100vh;
+
+    overflow-y: hidden;
+
+}
+
+#content #handle {
+    top: 0;
+    width: 100%;
+    height: 100vh;
+
+    transition: all 1s linear;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map .title {
+    margin-bottom: 20px;
+}
+
+.map .icon {
+    width: 129.59px;
+    height: 129.59px;
+    /* background-color: red; */
+    background-size: cover;
+
+    margin-bottom: 20px;
+}
+
+
+.map.mondstat .icon{
+    background-image: url("/assets/image/mondstat-icon.png");
+}
+.map.liyue .icon{
+    background-image: url("/assets/image/liyue-icon.png");
+}
+.map.inazuma .icon{
+    background-image: url("/assets/image/inazuma-icon.png");
+}
+.map.sumeru .icon{
+    background-image: url("/assets/image/sumeru-icon.png");
+}
+
+.map .title h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.map .title .arrow:nth-child(3) {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.map .title .arrow {
+    width: 384px;
+    height: 14.03px;
+    background-image: url("/assets/image/arrow-single.png");
+    background-size: cover;
+}
+
+.map .title h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49.68px;
+    line-height: 97px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.map p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.teyvat {
+    background-image: url("/assets/image/teyvat-map.png");
+    background-size: cover;
+}
+
+.mondstat {
+    background-image: url("/assets/image/mondstat-map.png");
+    background-size: cover;
+}
+.liyue {
+    background-image: url("/assets/image/liyue-map.png");
+    background-size: cover;
+}
+.inazuma {
+    background-image: url("/assets/image/inazuma-map.png");
+    background-size: cover;
+}
+.sumeru {
+    background-image: url("/assets/image/sumeru-map.jpg");
+    background-size: cover;
+}
+
+.teyvat h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 120px;
+
+    color: #FFFFFF;
+
+    margin-bottom: 27px;
+}
+
+.teyvat .arrow-bg {
+    width: 512px;
+    height: 18px;
+
+    background-image: url("/assets/image/arrow-icon.png");
+    background-size: cover;
+
+    margin-bottom: 25px;
+}
+
+.teyvat p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    margin-bottom: 10px;
+}
+
+.teyvat a {
+    width: 500px;
+    height: 34;
+    background-image: url("/assets/image/highlight-map.png");
+    background-size: cover;
+
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+
+    text-align: center;
+}

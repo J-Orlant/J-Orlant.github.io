@@ -1,0 +1,154 @@
+nav {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+
+    width: 100%;
+    /* padding: 15px 0 15px 0; */
+
+    display: flex;
+
+    background-color: rgba(0, 0, 0, 0.75);
+    
+    transition: all 2s ease-in-out;
+}
+
+nav .nav-cover {
+    margin-right: auto;
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 33px;
+
+    list-style: none;
+}
+
+nav li a {
+    color: #cccccc;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+nav .nav-cover .active {
+    color: #ffffff;
+    /* border: 1px solid #675BCF; */
+}
+
+nav .nav-cover .nav-item:hover {
+    color: #ffffff;
+}
+
+
+nav .right-content {
+    display: flex;
+    align-items: center;
+
+    margin-right: 2%;
+}
+
+nav .right-content li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .right-content li img{
+    margin-left: 19px;
+}
+
+nav .btn-download {
+    padding: 0 35px 0 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    word-spacing: 10px;
+    letter-spacing: 8%;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+
+    background-color: #675BCF;
+}
+
+i.fa-bars {
+    margin-right: 70px;
+
+    color: #ffffff;
+    font-size: 30px;
+
+    display: none;
+}
+
+#sidebar {
+    transform: translateX(100%);
+
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    top: 0;
+
+    width: 40%;
+    height: 100vh;
+    background-color: #ffffff;
+
+    transition: transform 0.5s ease-in-out;
+}
+
+#sidebar .close {
+    width: 100%;
+    height: 66px;
+
+    background-color: #675BCF;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#sidebar .side-cover {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+}
+
+#sidebar li{
+    list-style: none;
+}
+
+@media only screen and (max-width: 1010px) {
+    nav {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav .nav-cover {
+        display: none;
+    }
+
+    nav .right-content {
+        display: none;
+    }
+
+    nav .btn-download {
+        display: none;
+    }
+
+    nav .fa-solid {
+        display: block;
+    }
+}

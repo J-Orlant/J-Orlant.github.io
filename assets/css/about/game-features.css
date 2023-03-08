@@ -1,0 +1,43 @@
+.game-features {
+    width: 100%;
+    padding-top: 182px;
+
+    margin-top: 20px;
+}
+
+.game-features .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-features .title h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.game-features .title .arrow:nth-child(3) {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.game-features .title .arrow {
+    width: 384px;
+    height: 14.03px;
+    background-image: url("/assets/image/arrow-single.png");
+    background-size: cover;
+}
+
+.game-features .title h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 97px;
+    text-align: center;
+
+    color: #FFFFFF;
+}

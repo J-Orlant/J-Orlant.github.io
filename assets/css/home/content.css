@@ -1,0 +1,43 @@
+.content {
+    position: relative;
+    overflow-y: hidden;
+}
+
+.content .bg-main {
+    position: absolute;
+    width: 100%;
+
+    z-index: -1;
+
+    /* transition: all 0.1s ease-in-out; */
+}
+
+.content .blank-space {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .log {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .hoyo {
+    width: 650px;
+    height: 500px;
+    background-image: url("/assets/image/hoyo-logo.png"); 
+    background-size: cover;
+    background-position: center;
+    
+    position: fixed;
+    z-index: -1;
+    margin-right: auto;
+    margin-block-end: auto;
+}

@@ -1,0 +1,181 @@
+#slider {
+    position: relative;
+
+    overflow-x: hidden;
+}
+
+#slider .top-content {
+    width: 100%;
+    height: 100vh;
+
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    
+    padding: 180px 80px 0 80px;
+}
+
+#slider .slide-content {
+    position: absolute;
+    z-index: 0;
+    width: 500%;
+    height: 100vh;
+
+    display: flex;
+
+    transition: all 1s;
+}
+
+#slider .slide-content .sld {
+    width: 100%;
+    height: 100vh;
+}
+#slider .slide-content .img-1 {
+    background-image: url("/assets/image/bg-slider.jpeg");
+    background-size: cover;
+}
+#slider .slide-content .img-2 {        
+    background-image: url("/assets/image/celebrate-jp-twitter-official-desktop-wallpaper-genshin.jpg");
+    background-size: cover;
+}
+#slider .slide-content .img-3 {
+    background-image: url("/assets/image/hutao-oneplus-smartphone-collab-official-desktop-wallpaper-3.jpg");
+    background-size: cover;
+}
+#slider .slide-content .img-4 {
+    background-image: url("/assets/image/kiana.png");
+    background-size: cover;
+}
+#slider .slide-content .img-5 {
+    background-image: url("/assets/image/zhongli-childe-official-wallpaper-genshin-impact.jpg");
+    background-size: cover;
+}
+
+
+/* Title */
+#slider .top-content h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 67px;
+
+    color: #FFFFFF;
+}
+
+#slider .top-content button {
+    margin-top: 42px;
+
+    width: 195px;
+    height: 55px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+
+    border-radius: 30px;
+    border: none;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#slider .top-content button:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+
+    border: 2px solid #675BCF;
+    animation: ease-in .2s;
+}
+
+#slider .top-content .card-preview {
+    width: 100%;
+    /* background-color: red; */
+    margin-top: auto;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+#slider .top-content .card-preview .card-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#slider .top-content .card-preview .card-child .image {
+    width: 92px;
+    height: 52px;
+    margin-left: 15px;
+    margin-top: 5px;
+
+    border-radius: 7.5px;
+    background-color: #333333;
+
+    opacity: 0.8;
+}
+
+#slider .top-content .card-preview .card-child .line {    
+    width: 92px;
+    height: 5px;
+    margin-left: 15px;
+    margin-top: 7px;
+
+    background-color: transparent;
+    border-radius: 1.5px;
+}
+
+#slider .top-content .card-preview .card-child .image:hover {
+    opacity: 1;
+}
+
+#slider .top-content .card-preview .active .image {
+    opacity: 1;
+}
+
+#slider .top-content .card-preview .active .line {
+    background-color: #ffffff;
+}
+
+#slider .top-content .card-preview .first .image {
+    background-image: url("/assets/image/bg-slider.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+#slider .top-content .card-preview .second .image {
+    background-image: url("/assets/image/celebrate-jp-twitter-official-desktop-wallpaper-genshin.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#slider .top-content .card-preview .third .image {
+    background-image: url("/assets/image/hutao-oneplus-smartphone-collab-official-desktop-wallpaper-3.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#slider .top-content .card-preview .fourth .image {
+    background-image: url("/assets/image/kiana.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#slider .top-content .card-preview .fifth .image {
+    background-image: url("/assets/image/zhongli-childe-official-wallpaper-genshin-impact.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#slider .top-content .card-preview img {
+    margin-left: 15px;
+}
+

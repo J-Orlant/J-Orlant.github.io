@@ -1,0 +1,172 @@
+.content .weapon {
+    width: 100%;
+    height: 120vh;
+    background-image: url("/assets/image/bg-weapon.png");
+    background-size: cover;
+}
+
+.content .weapon::after {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    content: '';
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to top, #272059, transparent);
+}
+/* .content .weapon::before {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    content: '';
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to bottom #272059, transparent);
+} */
+
+.content .weapon {
+    z-index: 1;
+    position: relative;
+    /* background-color: #fff; */
+}
+
+.content .weapon .details {
+    width: 80%;
+    height: 100%;
+
+    border-bottom: 120vh solid #ffffff;
+    border-right: 300px solid transparent;
+}
+
+.content .weapon .details .val {
+    padding-left: 80px;
+    padding-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.content .weapon .details h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    margin-bottom: 31px;
+}
+
+.content .weapon .details h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 60px;
+    color: #614FCC;
+
+    margin-bottom: 25px;
+} 
+
+.content .weapon .details .line {
+    display: flex;
+
+    margin-bottom: 25px;
+}
+
+.content .weapon .details .line .lines {
+    height: 8px;
+    background-color: #000000;
+    border-radius: 10px;
+
+    margin-right: 26px;
+}
+
+.content .weapon .details .line .lines.dot1 {
+    width: 65px;
+}
+
+.content .weapon .details .line .lines.dot2 {
+    width: 12px;
+}
+
+.content .weapon .details .line .lines.dot3 {
+    width: 19px;
+}
+
+.content .weapon .details .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.content .weapon .details .skills h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: right;
+    color: #614FCC;
+
+    margin-bottom: 15px;
+}
+
+.content .weapon .details .skills {
+    margin-right: 200px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    color: #24333C;
+}
+
+.content .weapon .details .stars {
+    width: 130px;
+    height: 35px;
+    background-image: url("/assets/image/stars.png");
+    background-size: cover;
+
+    margin-bottom: 51px;
+}
+
+
+.content .weapon .details .skills button {
+    width: 129px;
+    height: 60px;
+
+    border-radius: 30px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #fff;
+
+    background-color: #614FCC;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 64px;
+
+    text-align: center;
+}
+
+.content .weapon .image {
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 40%;
+
+    width: 50%;
+    height: 70%;
+    background-image: url("/assets/image/weapon-img.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
