@@ -1,21 +1,13 @@
 .game-videos {
     width: 100%;
     padding-top: 182px;
+
 }
 
 .game-videos .title {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.game-videos .title h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin-right: 10px;
-    margin-left: 10px;
 }
 
 .game-videos .title .arrow:nth-child(3) {
@@ -38,6 +30,15 @@
     text-align: center;
 
     color: #FFFFFF;
+
+    
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.slide-cover {
+    width: 100%;
+    overflow: hidden;
 }
 
 .slide-group {
@@ -48,6 +49,8 @@
     display: flex;
 
     transform: translateX(-10%);
+    transition: transform 1s ease-in-out;
+
 }
 
 .slide-group .slide {
@@ -77,6 +80,10 @@
     background-size: cover;
 
     margin-left: 10px;
+}
+
+.slide-indicator .indicator.active {
+    background-image: url("/assets/image/star-point-active.webp");
 }
 
 .slide-indicator .indicator:first-child {

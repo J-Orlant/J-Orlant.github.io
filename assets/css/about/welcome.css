@@ -1,7 +1,7 @@
 body {
-
+    width: 100%;
     background-image: url("/assets/image/about-bg-first.png");    
     background-position: center;
     background-size: cover;
-
+    background-attachment: fixed;
 }

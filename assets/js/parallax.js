@@ -2,7 +2,7 @@ let bg = document.getElementById("bg-main");
 
 function getCurrentURL () {
     return window.location.pathname
-  }
+}
   
 const url = getCurrentURL()
 
