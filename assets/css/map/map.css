@@ -1,10 +1,5 @@
-/* body {
-    overflow-y: hidden;
-} */
-
 body {
     position: relative;
-    height: 200vh;
 }
 
 section {

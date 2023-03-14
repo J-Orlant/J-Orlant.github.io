@@ -10,12 +10,13 @@
 
     position: absolute;
     z-index: 10;
+
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
     
-    padding: 180px 80px 0 80px;
+    padding: 20vh 80px 0 80px;
 }
 
 #slider .slide-content {
@@ -59,7 +60,7 @@
 #slider .top-content h2 {
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3em;
     line-height: 67px;
 
     color: #FFFFFF;
@@ -91,21 +92,38 @@
     animation: ease-in .2s;
 }
 
+#slider .top-content .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
 #slider .top-content .card-preview {
     width: 100%;
     /* background-color: red; */
-    margin-top: auto;
-    margin-bottom: 10px;
 
     display: flex;
     justify-content: end;
-    align-items: end;
+    align-items: center;
+
+    margin-right: 15px;
+    padding-top: 10px;
+
+    flex-wrap: wrap;
 }
 
 #slider .top-content .card-preview .card-child {
+    width: 92px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    margin-left: 20px;
 }
 
 #slider .top-content .card-preview .card-child .image {
@@ -179,3 +197,46 @@
     margin-left: 15px;
 }
 
+
+@media only screen and (max-width : 800px) {
+    #slider .top-content h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    #slider .top-content .card-preview .card-child .image {
+        width: 80px;
+        height: 40px;
+    }
+
+    #slider .top-content .card-preview .card-child .line {
+        width: 80px;
+    }
+
+}
+
+@media only screen and (max-width : 600px) {
+    #slider .top-content {
+        padding-left: 40px;
+    }
+    
+    #slider .top-content h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    #slider .top-content button {
+        width: 120px;
+        height: 40px;
+    }
+
+    #slider .top-content .card-preview {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    #slider .top-content .bottom {
+        display: none;
+    }
+}

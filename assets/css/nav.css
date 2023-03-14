@@ -130,7 +130,7 @@ i.fa-bars {
     list-style: none;
 }
 
-@media only screen and (max-width: 1010px) {
+@media only screen and (max-width: 900px) {
     nav {
         justify-content: space-between;
         align-items: center;
@@ -151,4 +151,14 @@ i.fa-bars {
     nav .fa-solid {
         display: block;
     }
+
+    nav img {
+        width: 40%;
+        height: 50%;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
+
+/* https://genshinresource.tumblr.com/tagged/Character%20Avatars */

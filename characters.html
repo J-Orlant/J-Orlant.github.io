@@ -80,7 +80,7 @@
     </div>
 
 
-    <section class="content">
+    <section class="content" id="content">
         <div class="level1">
             <div class="line1"></div>
             <img src="/assets/image/bg-characters-bottom.png" alt="" class="bg-right-bot">
@@ -88,39 +88,57 @@
         <div class="level2">
             <img src="/assets/image/bg-characters-top.png" alt="" class="bg-top">
         </div>
-        <div class="level3">
-            <h4>CITY OF<br>FREEDOOM</h4>
+        <div class="level3" id="text-bg">
+            <!-- <h4>CITY OF<br>FREEDOOM</h4> -->
         </div>
-        <div class="level4"></div>
+        <div class="level4">
+        </div>
         <div class="level5">
             <img src="/assets/image/bg-characters-map.png" alt="">
             <div class="maps-logo">
-                <div class="arrow back"></div>
-                <div class="logo"></div>
-                <div class="arrow go"></div>
+                <div class="arrow back active" id="back"></div>
+                <div class="logo" id="logo-map">
+                    <div class="iconMap mond"></div>
+                    <div class="iconMap liyue"></div>
+                    <div class="iconMap inazuma"></div>
+                    <div class="iconMap sumeru"></div>
+                </div>
+                <div class="arrow go" id="go"></div>
             </div>
         </div>
         <div class="level6">
-            <img src="/assets/image/Characters/Mond/Jean.png" alt="">
+            <img id="chara-main" src="/assets/image/Characters/Mond/Jean.png" alt="">
             <img src="/assets/image/Characters/blight-effect.png" alt="">
             <div class="line2"></div>
         </div>
-        <div class="level7">
+        <div class="level7" id="level7">
             <div class="line"></div>
-            <img src="/assets/image/Characters/Mond/Name-Jean.png" alt="">
+            <img id="name-text" src="/assets/image/Characters/Mond/Name-Jean.png" alt="">
             <div class="voice">
-                <h4>VA: Saito Chiwa</h4>
+                <h4 id="VA"></h4>
                 <div class="mic">
                     <img src="/assets/image/icon-mic.png" alt="">
                 </div>
             </div>
             <div class="details">
                 <div class="icon"></div>
-                <p>
+                <p id="desc">
                     As the Acting Grand Master of the Knights, Jean has always been devoted to her duties and
-                    maintaining peace in Mondstadt. She had taken precautions long before the onset of Stormterror's
+                    maintaining peace in Mondstadt. <br>
+                    She had taken precautions long before the onset of Stormterror's
                     assault, and she will guard Mondstadt with her life as always.
                 </p>
+            </div>
+        </div>
+        <div class="level8">
+            <div class="card active" id="card1">
+                <!-- <h4>Jean</h4> -->
+            </div>
+            <div class="card" id="card2">
+                <!-- <h4>Eula</h4> -->
+            </div>
+            <div class="card" id="card3">
+                <!-- <h4>Mona</h4> -->
             </div>
         </div>
     </section>
@@ -148,6 +166,7 @@
     </footer>
 
     <script src="/assets/js/nav.js"></script>
+    <script src="/assets/js/characters.js"></script>
 </body>
 
 </html>
