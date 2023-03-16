@@ -9,6 +9,8 @@
 
     z-index: -1;
 
+    top: 100vh;
+
     /* transition: all 0.1s ease-in-out; */
 }
 
@@ -40,4 +42,19 @@
     z-index: -1;
     margin-right: auto;
     margin-block-end: auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .content .blank-space {
+        height: 15vh;
+    }   
+
+    .content .hoyo {
+        width: 450px;
+        height: 400px;
+    }
+
+    .content .bg-main {
+        top: 150vh;
+    }
 }

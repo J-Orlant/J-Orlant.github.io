@@ -3,6 +3,9 @@
     height: 120vh;
     background-image: url("/assets/image/bg-weapon.png");
     background-size: cover;
+
+    position: relative;
+    z-index: 1;
 }
 
 .content .weapon::after {
@@ -23,12 +26,6 @@
     height: 100px;
     background-image: linear-gradient(to bottom #272059, transparent);
 } */
-
-.content .weapon {
-    z-index: 1;
-    position: relative;
-    /* background-color: #fff; */
-}
 
 .content .weapon .details {
     width: 80%;
@@ -169,4 +166,115 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 800px) {
+    .content .weapon .details {
+        width: 100vw;
+        background-image: url("/assets/image/mobile-card-weapon.png");
+        background-size: 100vw 35vh;
+        background-repeat: no-repeat;
+    }
+
+    .content .weapon {
+        height: 40vh;
+
+        background-image: unset;
+        overflow-x: hidden;
+
+        padding-top: 5vh;
+    }
+    
+    .content .weapon .details .val {
+        width: 100vw;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    .content .weapon::after {
+        display: none;
+    }
+
+    .content .weapon .details {
+        border: none;
+    }
+
+    .content .weapon .details .val h4{
+        font-size: 20px;
+        line-height: 32px;
+
+        margin-bottom: 5px;
+    }
+
+    .content .weapon .details .val h3{
+        font-size: 24px;
+        line-height: 20px;
+
+        text-align: left;
+
+        margin-bottom: 15px;
+    }
+
+    .content .weapon .details .skills {
+        width: 100%;
+    }
+
+    .content .weapon .details .skills button {
+        display: none;
+    }
+
+    .content .weapon .details .skills p {
+        display: none;
+    }
+
+    .content .weapon .details .line {
+        margin-bottom: 15px;
+    }
+
+    .content .weapon .details .line .lines {
+        height: 5px;
+        background-color: #000000;
+        border-radius: 10px;
+
+        margin-right: 8px;
+    }
+
+    .content .weapon .details .line .lines.dot1 {
+        width: 10px;
+    }
+    
+    .content .weapon .details .line .lines.dot2 {
+        width: 20px;
+    }
+    
+    .content .weapon .details .line .lines.dot3 {
+        width: 30px;
+    }
+
+    .content .weapon .details .stars {
+        width: 60px;
+        height: 20px;
+        background-image: url("/assets/image/stars.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left;
+    
+        margin-bottom: 5px;
+    }
+
+    .content .weapon .details .val .skills h4 {
+        font-size: 20px;
+        text-align: left;
+        margin-right: 0;
+        
+        line-height: 20px;
+    }
+
+    .content .weapon .image {
+        width: 55%;
+        height: 75%;
+        top: -10%;
+        left: 50%;
+    }
+
 }

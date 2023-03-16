@@ -14,7 +14,7 @@ window.addEventListener("scroll", function () {
     if(url == "/about.html") {
         this.document.body.style.backgroundPositionY = (value * 0.5 * -1) + "px";
     } else {
-        bg.style.top = value * 0.5 + "px";
+        // bg.style.top = value * 0.5 + "px";
     }
     
 });
