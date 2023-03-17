@@ -239,4 +239,8 @@
     #slider .top-content .bottom {
         display: none;
     }
+
+    #slider .slide-content .sld {
+        background-position-x: -200px;
+    }
 }

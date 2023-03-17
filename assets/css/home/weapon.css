@@ -169,7 +169,22 @@
     background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 750px) {
+    .content .weapon .details .val {
+        padding-left: 30px;
+    }
+
+    .content .weapon .details h4 {
+        font-size: 30px;
+    }
+
+    .content .weapon .details h3 {
+        font-size: 45px;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
     .content .weapon .details {
         width: 100vw;
         background-image: url("/assets/image/mobile-card-weapon.png");
