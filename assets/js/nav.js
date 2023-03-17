@@ -9,9 +9,9 @@ window.addEventListener("scroll", function(e) {
     st = window.scrollY;
 
     if (st > lastScrollTop) {
-        nav.style.display = "none";
+        nav.style.opacity = 0;
     } else if (st < lastScrollTop) {
-        nav.style.display = "flex";
+        nav.style.opacity = 1;
     }
 
     lastScrollTop = st <= 0 ? 0 : st;   

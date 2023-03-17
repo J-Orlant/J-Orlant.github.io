@@ -27,18 +27,20 @@
         rel="stylesheet">
 </head>
 <body>
-    <nav id="nav">
-        <img src="assets/image/logo.png" class="logo-img" width="362" height="66" alt="">
+    <div id="sidebar">
+        <div class="top-content">
+            <div class="close">
+                <i id="btn-close-side" class="fa-solid fa-xmark"></i>
+            </div>
+            <ul class="side-cover">
+                <li class="active"><a href="/index.html" class="nav-item active">HOME</a></li>
+                <li><a href="/characters.html" class="nav-item">CHARACTERS</a></li>
+                <li><a href="/map.html" class="nav-item">MAPS</a></li>
+                <li><a href="/about.html" class="nav-item">ABOUT</a>
+            </ul>
+        </div>
 
-        <ul class="nav-cover">
-            <li><a href="/index.html" class="nav-item">HOME</a></li>
-            <li><a href="/characters.html" class="nav-item">CHARACTERS</a></li>
-            <li><a href="/map.html" class="nav-item">MAPS</a></li>
-            <li class="active"><a href="/about.html" class="nav-item active">ABOUT</a>
-            <li>
-        </ul>
-
-        <div class="right-content">
+        <div class="bottom-content">
             <li>
                 <a href="/register.html" class="nav-item" class="log-in-link">
                     Sign Up
@@ -46,10 +48,7 @@
                 </a>
             </li>
         </div>
-        <a href="#" type="button" class="btn-download">
-            Download
-        </a><i class="fa-solid fa-bars" id="btn-side"></i>
-    </nav>
+    </div>
 
     <div id="sidebar">
         <div class="close">
