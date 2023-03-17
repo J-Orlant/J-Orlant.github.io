@@ -1,38 +1,27 @@
-body {
-    position: relative;
-}
-
 section {
+    width: 100vw;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding: 0 40px;
+    overflow-x: hidden;
 }
 
-#content {
-    position: fixed;
-    top: 0;
-    z-index: 10;
-
-    width: 100%;
-    height: 100vh;
-
-    overflow-y: hidden;
-
-}
-
-#content #handle {
-    top: 0;
-    width: 100%;
-    height: 100vh;
-
-    transition: all 1s linear;
+.content {
+    width: 100vw;
 }
 
 .map {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-size: cover;
 }
 
 .map .title {
@@ -42,7 +31,7 @@ section {
 .map .icon {
     width: 129.59px;
     height: 129.59px;
-    /* background-color: red; */
+    
     background-size: cover;
 
     margin-bottom: 20px;
@@ -80,20 +69,21 @@ section {
     width: 384px;
     height: 14.03px;
     background-image: url("/assets/image/arrow-single.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .map .title h3{
     font-style: normal;
     font-weight: 400;
     font-size: 49.68px;
-    line-height: 97px;
     text-align: center;
 
     color: #FFFFFF;
 }
 
 .map p {
+    width: 50%;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -104,31 +94,25 @@ section {
 
 .teyvat {
     background-image: url("/assets/image/teyvat-map.png");
-    background-size: cover;
 }
 
 .mondstat {
     background-image: url("/assets/image/mondstat-map.png");
-    background-size: cover;
 }
 .liyue {
     background-image: url("/assets/image/liyue-map.png");
-    background-size: cover;
 }
 .inazuma {
     background-image: url("/assets/image/inazuma-map.png");
-    background-size: cover;
 }
 .sumeru {
     background-image: url("/assets/image/sumeru-map.jpg");
-    background-size: cover;
 }
 
 .teyvat h3 {
     font-style: normal;
     font-weight: 400;
     font-size: 80px;
-    line-height: 120px;
 
     color: #FFFFFF;
 
@@ -146,6 +130,7 @@ section {
 }
 
 .teyvat p {
+    width: 70%;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -158,7 +143,7 @@ section {
 }
 
 .teyvat a {
-    width: 500px;
+    width: 80%;
     height: 34;
     background-image: url("/assets/image/highlight-map.png");
     background-size: cover;
@@ -172,4 +157,59 @@ section {
     color: #FFFFFF;
 
     text-align: center;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .teyvat .arrow-bg {
+        width: 312px;
+        height: 18px;
+    
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .teyvat h3{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .teyvat p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .teyvat .arrow-bg {
+        margin-bottom: 10px;
+    }
+
+    .map .title {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .map .title h3{
+        font-size: 20px;
+    }
+
+    .map .icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .map .title .arrow {
+        width: 100px;
+        height: 8px;
+
+        display: none;
+    }
+
+    .map p {
+        width: 70%;
+        
+        font-size: 12px;
+        line-height: 20px;
+    }
 }
