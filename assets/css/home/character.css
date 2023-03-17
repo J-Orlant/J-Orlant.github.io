@@ -67,6 +67,7 @@
     color: #FFFFFF;
 
     margin-bottom: 24px;
+    text-align: right;
 }
 
 .content .character .content-top .details h3 {
@@ -74,9 +75,10 @@
     font-weight: 700;
     font-size: 64px;
     line-height: 60px;
+
     /* or 94% */
 
-    display: flex;
+    /* display: flex; */
     text-align: right;
 
     color: #614FCC;
@@ -120,6 +122,7 @@
     align-items: center;
     justify-content: center;
 }
+
 
 .content .character .content-top .details .voice .mic img {
     width: 30px;

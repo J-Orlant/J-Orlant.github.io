@@ -36,6 +36,7 @@
 }
 
 .content .weapon .details .val {
+    width: 65vw;
     padding-left: 80px;
     padding-top: 50px;
 
@@ -59,7 +60,7 @@
 .content .weapon .details h3 {
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 3.2em;
     line-height: 60px;
     color: #614FCC;
 
@@ -103,8 +104,8 @@
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    line-height: 60px;
-    text-align: right;
+    line-height: 20px;
+    text-align: left;
     color: #614FCC;
 
     margin-bottom: 15px;
