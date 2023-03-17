@@ -306,6 +306,8 @@
         margin-bottom: 0;
 
         margin-left: 0;
+
+        text-align: left;
     }
 
     .content .character .content-top .details h3 {
