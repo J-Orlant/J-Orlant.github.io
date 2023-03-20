@@ -7,6 +7,10 @@ body {
     align-items: center;
 }
 
+section {
+    height: max-content;
+}
+
 .base {
     margin-top: 70px;
     margin-bottom: 20px;

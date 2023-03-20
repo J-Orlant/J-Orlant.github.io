@@ -25,20 +25,37 @@
                     Register and explore the world with us.
                 </div>
 
-                <form action="">
+                <form id="form-action" action="/index.html">
                     <div class="form-group">
                         <label for="name">Full Name</label>
-                        <input class="form-input" type="text" name="name" placeholder="Write your name" required>
+                        <input class="form-input" type="text" name="name" autocomplete="none" placeholder="Write your name" id="name" required>
                     </div>
                     <div class="form-group">
                         <label for="email">Email Address</label>
-                        <input class="form-input" type="email" name="email" placeholder="Enter your email address" required>
+                        <input class="form-input" type="email" name="email" placeholder="Enter your email address" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input class="form-input" type="number" name="age" placeholder="Enter your age" id="age" required>
                     </div>
                     <div class="form-group">
                         <label for="password">Password</label>
-                        <input class="form-input" type="password" name="password" placeholder="Your password" required>
+                        <input class="form-input" type="password" name="password" placeholder="Your password" id="password" required>
                     </div>
-                    <button class="btn btn-regis">Continue</button> <br>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input class="form-input" type="password" name="confirm-password" placeholder="Confirm password" id="confirm-password" required>
+                    </div>
+                    <div class="form-group tos">
+                        <input type="checkbox" id="checkbox" name="checkbox" required>
+                        <h4>
+                            I have read and agree the 
+                            <a target="_blank" href="https://account.hoyoverse.com/#/about/userAgreement?lang=en-us">Terms of Services</a>
+                            & 
+                            <a target="_blank" href="https://account.hoyoverse.com/#/about/privacy?lang=en-us">Privacy Policy</a>
+                        </h4>
+                    </div>
+                    <button class="btn btn-regis" id="btn-regis">Continue</button> <br>
                     <button class="btn btn-login">Sign In</button> 
                 </form>
             </div>
@@ -47,5 +64,6 @@
             </div>
         </section>
     </div>
+    <script src="/assets/js/auth.js"></script>
 </body>
 </html>

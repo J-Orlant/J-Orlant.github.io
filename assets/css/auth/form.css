@@ -1,11 +1,11 @@
 .card .form-base {
     width: 50%;
-    height: 100%;
     
-    padding: 33px 67px 0 67px;
+    padding: 33px 67px;
 
     background-color: #ffff;
     border-start-start-radius: 20px;
+    border-end-start-radius: 20px;
 }
 
 .card .form-base h4 {
@@ -34,6 +34,25 @@
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
+
+    position: relative;
+}
+
+.form-group.error .form-input {
+    border: 2px solid red;
+}
+
+.form-group.error::before {
+    content: var(--error-message);
+    /* content: "error"; */
+    position: absolute;
+    bottom: -25px;
+    /* bottom: 0; */
+    left: 10px;
+
+    color: red;
+    font-size: 12px;
+    /* background-color: red; */
 }
 
 .form-group label {
@@ -88,4 +107,42 @@
 .form-base .btn.btn-login {
     background-color: #E7EAF5;
     color: #0C145A;
+}
+
+.form-group.tos {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group.tos input:checked {
+    border-radius: 20px;
+    padding: 20px;
+
+    width: 30px;
+    height: 30px;
+
+    background-color: #614FCC;
+}
+
+.form-group.tos input {
+    border-radius: 20px;
+    padding: 20px;
+
+    width: 30px;
+    height: 30px;
+
+    
+    border: 1px solid #0C145A;
+}
+
+.form-group.tos h4 {
+    font-size: 14px;
+    line-height: 20px;
+
+    margin-left: 10px;
+}
+
+.form-group.tos h4 a {
+    text-decoration: none;
 }
