@@ -14,17 +14,16 @@ section {
 .base {
     margin-top: 70px;
     margin-bottom: 20px;
-    /* background-color: rebeccapurple; */
+    margin-left: 120px;
+    margin-right: 120px;
+
     position: relative;
 
     width: 100%;
-    margin-left: 120px;
-    margin-right: 120px;
     padding-top: 30px;
 
     display: flex;
     align-items: end;
-
 }
 
 .base .card {
@@ -50,6 +49,11 @@ section {
 }
 
 @media only screen and (max-width: 1000px) {
+    .base {
+        margin: 15% 10%;
+        justify-content: center;
+    }
+
     .card .image-base {
         display: none;
     }   

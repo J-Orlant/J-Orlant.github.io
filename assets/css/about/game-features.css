@@ -1,8 +1,8 @@
 .game-features {
     width: 100%;
 
-    margin-top: 280px;
     margin-bottom: 100px;
+    padding-top: 120px;
 }
 
 .game-features .title {
@@ -20,6 +20,13 @@
 
     margin-right: 10px;
     margin-left: 10px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
 .game-features .title .arrow:nth-child(3) {
@@ -28,26 +35,15 @@
 }
 
 .game-features .title .arrow {
-    width: 384px;
+    width: 40%;
     height: 14.03px;
     background-image: url("/assets/image/arrow-single.png");
     background-size: cover;
 }
 
-.game-features .title h3{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 46px;
-    line-height: 97px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-
-
 .card-content {
-    height: 400px;
-    margin: 0 100px 100px 100px;
+    height: 35vw;
+    margin: 0 100px 50px 100px;
 
     /* background-color: #FFFFFF; */
 
@@ -58,13 +54,11 @@
 }
 
 .card-content .card {
-    width: 35%;
+    width: 40%;
     height: 90%;
 
     padding: 0 40px 0 40px;
 
-    /* background-color: red; */
-    
     position: absolute;
     z-index: 1;
 
@@ -83,6 +77,10 @@
 
 .card-content.left .card {
     left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-content .card h4{
@@ -90,8 +88,8 @@
 
     font-style: normal;
     font-weight: 700;
-    font-size: 29px;
-    line-height: 35px;
+    font-size: 25px;
+    line-height: 30px;
 
     color: #654F42;
     text-align: center;
@@ -103,7 +101,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 26px;
+    line-height: 20px;
 
     text-align: justify;
 
@@ -114,9 +112,21 @@
     width: 100%;
     height: 100%;
 
-    background-image: url("/assets/image/about-1.png");
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+.card-content:nth-child(2) .bg-preview {
+    background-image: url("/assets/image/About-Card/first.png");
+}
+.card-content:nth-child(3) .bg-preview {
+    background-image: url("/assets/image/About-Card/second.png");
+}
+.card-content:nth-child(4) .bg-preview {
+    background-image: url("/assets/image/About-Card/third.png");
+}
+.card-content:nth-child(5) .bg-preview {
+    background-image: url("/assets/image/About-Card/fourth.png");
 }
 
 .card-content.right {

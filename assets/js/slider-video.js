@@ -13,7 +13,7 @@ first.addEventListener("click", function(){
     prev.classList.remove("active");
     first.className += " active";
     slide.style.transform = "translateX(-10%)";
-    slide.style.transform = `translateX(-${counter}0%)`;
+    // slide.style.transform = `translateX(-${counter}0%)`;
     counter = 1;
 })
 

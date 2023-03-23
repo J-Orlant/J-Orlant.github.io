@@ -1,7 +1,6 @@
 .game-videos {
     width: 100%;
-    padding-top: 182px;
-
+    height: 45vw;
 }
 
 .game-videos .title {
@@ -25,12 +24,10 @@
 .game-videos .title h3{
     font-style: normal;
     font-weight: 600;
-    font-size: 46px;
-    line-height: 97px;
+    font-size: 40px;
     text-align: center;
 
     color: #FFFFFF;
-
     
     margin-right: 10px;
     margin-left: 10px;
@@ -42,9 +39,8 @@
 }
 
 .slide-group {
-    margin-top: 70px;
+    margin-top: 50px;
     width: 500%;
-    height: 70vh;
 
     display: flex;
 
@@ -54,8 +50,8 @@
 }
 
 .slide-group .slide {
-    width: 800px;
-    height: 400px;
+    width: 90%;
+    height: 35vw;
 
     border: 1px solid #FFFFFF;
 
@@ -70,6 +66,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin-top: 50px;
 }
 
 .slide-indicator .indicator {
