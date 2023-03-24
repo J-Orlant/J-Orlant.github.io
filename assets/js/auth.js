@@ -57,7 +57,8 @@ password.addEventListener("keyup", function() {
 })
 
 confirm_password.addEventListener("keyup", function() {
-    if(confirm_password.value != password.value ) {
+    if(confirm_password.value != password.value || confirm_password.value.length < 8) {
+        console.log("masok")
         confirm_password.parentElement.classList.add("error");
         errorMessage = "'Password not macth'"
         confirm_password.parentElement.style.setProperty("--error-message", errorMessage);
