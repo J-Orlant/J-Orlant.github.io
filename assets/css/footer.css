@@ -71,6 +71,10 @@ footer .copyright  {
     }
 
     footer .hoyo {
-        width: 60%;
+        width: 50%;
+    }
+
+    footer .logo-hoyo {
+        width: 70%;
     }
 }

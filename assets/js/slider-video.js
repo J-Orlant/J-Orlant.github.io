@@ -17,6 +17,10 @@ first.addEventListener("click", function(){
     counter = 1;
 })
 
+function bikin() {
+    
+}
+
 second.addEventListener("click", function(){
     let prev = document.getElementById("indi" + counter);
     prev.classList.remove("active");

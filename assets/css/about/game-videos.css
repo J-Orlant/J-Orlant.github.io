@@ -103,3 +103,38 @@
         background-repeat: no-repeat;
     }
 }
+
+
+@media only screen and (max-width: 500px){
+    .slide-group .slide {
+        margin-left: 10px;
+    }
+
+    .game-videos .title {
+        margin-bottom: 10px;
+    }
+    
+    .game-videos .title h3{
+        line-height: 25px;
+        font-size: 20px;
+    }
+
+    .game-videos .title .arrow {
+        display: none;
+    }
+
+    .slide-cover {
+        margin-top: -40px;
+    }
+
+    .slide-indicator {
+        margin-top: 20px;
+    }
+
+    .slide-indicator .indicator {
+        width: 15px;
+        height: 15px;
+    
+        margin-left: 5px;
+    }
+}

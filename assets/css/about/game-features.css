@@ -54,7 +54,7 @@
     width: 40%;
     height: 95%;
 
-    padding: 0 40px 0 40px;
+    padding: 10px 40px 0 40px;
 
     position: absolute;
     z-index: 1;
@@ -150,7 +150,6 @@
     .card-content .card h4{
         font-size: 18px;
         line-height: 18px;
-
     }
     
     .card-content .card p {
@@ -161,6 +160,7 @@
     }
 
     .game-features .title {
+        width: 100%;
         margin-bottom: 30px;
     }
 
@@ -172,8 +172,6 @@
         width: 200px;
         background-size: contain;
         background-repeat: no-repeat;
-
-        /* margin-left: 10px; */
     }
 }
 
@@ -226,5 +224,68 @@
 
     .card-content.right {
         padding: 0;
+    }
+
+    .card-content .card h4{
+        font-size: 16px;
+    }
+
+    .card-content .card p{
+        font-size: 10px;
+    }
+
+    .card-content .card {
+        padding: 0 15px;
+        padding-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .game-features {
+        transform: scale(0.85);
+        margin-top: -40px;
+    }
+
+    .game-features .title {
+        margin-bottom: 10px;
+    }
+
+    .game-features .title h3{
+        line-height: 25px;
+        font-size: 20px;
+    }
+
+    .game-features .title .arrow {
+        display: none;
+    }
+
+    .card-content {   
+        flex: 100%;
+
+        width: 100%;
+        height: 40vw;
+
+        padding: 0;
+
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .card-content .bg-preview {
+        background-position-x: -50px;
+    }
+
+    .card-content .card {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card-content .card p {
+        display: none;
+    }
+
+    .card-content.right {
+        flex-direction: row-reverse;
     }
 }

@@ -31,3 +31,44 @@
     font-weight: 400;
     color: #FFFFFF;
 }
+
+@media only screen and (max-width: 700px) {
+    .details {
+        padding-top: 10px;
+    }
+
+    .details h4  {
+        margin-top: 25px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .details .platform {
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .details {
+        transform: scale(0.75);
+
+        margin-top: -30px;
+        
+        padding-bottom: 0;
+    }
+
+    .details .logo {
+        width: 30%;
+    }
+
+    .details h4  {
+        margin-top: 15px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .details .platform {
+        max-width: 90%;
+    }
+    
+}
