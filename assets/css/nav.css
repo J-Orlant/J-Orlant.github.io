@@ -22,9 +22,16 @@ nav .nav-cover {
 }
 
 nav li {
+    height: 100%;
     margin-right: 33px;
 
     list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 5px solid transparent;
 }
 
 nav li a {
@@ -36,13 +43,23 @@ nav li a {
     line-height: 16px;
 }
 
+
 nav .nav-cover .active {
     color: #ffffff;
-    /* border: 1px solid #675BCF; */
+    /* padding-top: -5px; */
 }
+
+nav li.active {
+    border-top: 5px solid #675BCF;
+}
+
 
 nav .nav-cover .nav-item:hover {
     color: #ffffff;
+}
+
+nav li:hover {
+    border-top: 5px solid #675BCF;
 }
 
 
