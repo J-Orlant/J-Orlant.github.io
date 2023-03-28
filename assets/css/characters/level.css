@@ -1,6 +1,6 @@
 .level1 {
     width: 100%;
-    height: 110vh;
+    height: 100vh;
 
     position: absolute;
     top: 0;
@@ -9,7 +9,7 @@
 
 .level2 {
     width: 100%;
-    height: 110vh;
+    height: 100vh;
 
     position: absolute;
     top: 0;
@@ -30,7 +30,7 @@
     bottom: 0;
 
     width: 100%;
-    height: 110vh;
+    height: 100vh;
 
     z-index: 4;
 
@@ -50,14 +50,14 @@
 
 .level6 {
     width: 100%;
-    height: 110vh;
+    height: 100vh;
 
     position: absolute;
     z-index: 6;
 }
 
 .level7 {
-    height: 110vh;
+    height: 100vh;
 
     position: absolute;
     z-index: 7;
@@ -68,9 +68,8 @@
 
 .level8 {
     width: 100%;
-
     position: absolute;
     z-index: 8;
 
-    top: 82vh;
+    bottom: 0;
 }

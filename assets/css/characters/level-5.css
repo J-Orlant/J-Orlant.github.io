@@ -1,0 +1,115 @@
+/* level 5 */
+.level5 img {
+    width: 40%;
+    height: 44.5vh;
+
+    position: relative;
+}
+
+.level5 .maps-logo {
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.level5 .maps-logo .arrow {
+    width: 60px;
+    height: 60px;
+
+    background-image: url("/assets/image/arrow-characters.png");
+    opacity: 0.5;
+}
+
+.level5 .maps-logo .arrow.go {
+    transform: rotate(-190deg);
+}
+
+.level5 .maps-logo .arrow.active {
+    opacity: 1;
+}
+
+.level5 .maps-logo .arrow.back {
+    margin-left: 90px;
+    transform: scaleX(-1) rotate(-85deg);
+
+    /* background-color: red; */
+}
+
+.level5 .maps-logo .logo {
+    width: 90px;
+    height: 100px;
+    margin-top: -10px;
+    margin-left: 20px;
+
+    overflow-y: hidden;
+}
+
+.level5 .maps-logo .logo .iconMap {
+    width: 90px;
+    height: 100px;
+
+    background-size: cover;
+    background-position: center;
+
+    transition: all 0.5s ease-in-out; 
+    /* transform: translateY(-100px); */
+}
+
+.level5 .maps-logo .logo .iconMap.mond {
+    background-image: url("/assets/image/mondstat-icon.png");
+}
+.level5 .maps-logo .logo .iconMap.liyue {
+    background-image: url("/assets/image/liyue-icon.png");
+}
+.level5 .maps-logo .logo .iconMap.inazuma {
+    background-image: url("/assets/image/inazuma-icon.png");
+}
+.level5 .maps-logo .logo .iconMap.sumeru {
+    background-image: url("/assets/image/sumeru-icon.png");
+}
+
+@media only screen and (max-width: 900px) {
+    .level5 {
+        transform: scale(0.7);
+        top: 35px;
+        left: -90px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .level5 {
+        left: -80px;
+        width: 100vw;
+
+    }
+
+    .level5 img {
+        display: none;
+    }
+
+    .level5 .maps-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: unset;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .level5 .maps-logo .logo {
+        margin-top: unset;
+        margin-left: unset;
+    }
+
+    .level5 .maps-logo .arrow.go {
+        transform: rotate(43deg);
+    }
+    
+    .level5 .maps-logo .arrow.back {
+        margin-left: unset;
+        transform: scaleX(-1) rotate(43.5deg);
+    }
+}

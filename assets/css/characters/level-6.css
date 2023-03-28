@@ -1,0 +1,63 @@
+/* Level 6 */
+.level6 {
+    width: 100%;
+    height: 100vh;
+
+    overflow-x: hidden;
+}
+
+.level6 img {
+    max-width: 80%;
+    max-height: 100%;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    transition: right 2s ease-in-out;
+}
+
+.level6 img:nth-child(2) {
+    width: 100%;
+    height: 340px;
+
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+.line2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    z-index: 5;
+
+    border-top: 1px solid #ffff;
+
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media only screen and (max-width: 900px) {
+    .level6 img {
+        max-width: 140%;
+        right: -50px;
+    }
+
+    .level6 img:nth-child(2) {
+        max-width: 100%;
+        height: 340px;
+        right: 0;
+        left: 0;
+    }
+
+    .level6 .line2 {
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .level6 img {
+        max-width: 170%;
+    }
+}

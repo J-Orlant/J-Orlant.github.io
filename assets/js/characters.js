@@ -38,7 +38,6 @@ back.addEventListener("click", function () {
         for (let i = 0; i < logoMap.length; i++) {
             const element = logoMap[i];
             element.style.transform = `translateY(${positionMap * -100}px)`
-            
         }
 
     } 
