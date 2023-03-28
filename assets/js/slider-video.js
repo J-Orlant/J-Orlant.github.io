@@ -12,20 +12,16 @@ first.addEventListener("click", function(){
     let prev = document.getElementById("indi" + counter);
     prev.classList.remove("active");
     first.className += " active";
-    slide.style.transform = "translateX(-10%)";
+    slide.style.transform = "translateX(-11.5%)";
     // slide.style.transform = `translateX(-${counter}0%)`;
     counter = 1;
 })
-
-function bikin() {
-    
-}
 
 second.addEventListener("click", function(){
     let prev = document.getElementById("indi" + counter);
     prev.classList.remove("active");
     second.className += " active";
-    slide.style.transform = "translateX(-24%)";
+    slide.style.transform = "translateX(-26%)";
     counter = 2;
 })
 
@@ -33,7 +29,7 @@ third.addEventListener("click", function(){
     let prev = document.getElementById("indi" + counter);
     prev.classList.remove("active");
     third.className += " active";
-    slide.style.transform = "translateX(-37%)";
+    slide.style.transform = "translateX(-40%)";
     counter = 3;
 })
 
@@ -41,7 +37,7 @@ fourth.addEventListener("click", function(){
     let prev = document.getElementById("indi" + counter);
     prev.classList.remove("active");
     fourth.className += " active";
-    slide.style.transform = "translateX(-50%)";
+    slide.style.transform = "translateX(-54.5%)";
     counter = 4;
 })
 
@@ -49,6 +45,6 @@ five.addEventListener("click", function(){
     let prev = document.getElementById("indi" + counter);
     prev.classList.remove("active");
     five.className += " active";
-    slide.style.transform = "translateX(-63%)";
+    slide.style.transform = "translateX(-69%)";
     counter = 5;
 })

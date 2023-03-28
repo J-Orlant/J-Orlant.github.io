@@ -81,7 +81,7 @@
 
 @media only screen and (max-width: 600px) {
     .level5 {
-        left: -80px;
+        left: -50px;
         width: 100vw;
 
     }
@@ -96,7 +96,7 @@
         align-items: center;
 
         padding: unset;
-        background-color: rgba(255, 255, 255, 0.2);
+        /* background-color: rgba(255, 255, 255, 0.2); */
     }
 
     .level5 .maps-logo .logo {

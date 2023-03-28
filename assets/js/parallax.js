@@ -11,6 +11,7 @@ window.addEventListener("scroll", function () {
     
     if(url == "/about.html") {
         this.document.body.style.backgroundPositionY = (value * 0.5 * -1) + "px";
+        this.document.getElementById("welcome").style.top = (value * 0.5) + "px";
     } else {
         let bg = document.getElementById("bg-main");
 

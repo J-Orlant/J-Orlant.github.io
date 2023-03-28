@@ -155,7 +155,7 @@ i.fa-bars {
 
 #sidebar .bottom-content {
     margin-top: auto;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #675BCF;
     width: 100%;
 }
 
@@ -165,7 +165,9 @@ i.fa-bars {
 
 #sidebar .bottom-content li a {
     display: flex;
-    align-items: center
+    align-items: center;
+    
+    color: white;
 }
 
 #sidebar .bottom-content li a img {
