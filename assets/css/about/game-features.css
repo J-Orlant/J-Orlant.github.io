@@ -113,16 +113,16 @@
 }
 
 .card-content:nth-child(2) .bg-preview {
-    background-image: url("/assets/image/About-Card/first.png");
+    background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/About-Card/first.png?csf=1&web=1&e=kutbQj");
 }
 .card-content:nth-child(3) .bg-preview {
-    background-image: url("/assets/image/About-Card/second.png");
+    background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/About-Card/second.png?csf=1&web=1&e=bVHFTc");
 }
 .card-content:nth-child(4) .bg-preview {
-    background-image: url("/assets/image/About-Card/third.png");
+    background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/About-Card/third.png?csf=1&web=1&e=sJabLh");
 }
 .card-content:nth-child(5) .bg-preview {
-    background-image: url("/assets/image/About-Card/fourth.png");
+    background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/About-Card/fourth.png?csf=1&web=1&e=GlCWtY");
 }
 
 .card-content.right {

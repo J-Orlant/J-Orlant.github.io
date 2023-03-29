@@ -10,7 +10,7 @@
     width: 100%;
     height: 100vh; 
 
-    background-image: url("/assets/image/Map/Mondstadt1.png");
+    background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/Map/Mondstadt1.png?csf=1&web=1&e=LcfWTF");
     background-size: cover;
     /* background-position: center; */
     background-repeat: no-repeat;
@@ -18,37 +18,37 @@
 
 @keyframes bg-mond {
     50% {
-        background-image: url("/assets/image/Map/Mondstadt1.png");
+        background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/Map/Mondstadt1.png?csf=1&web=1&e=LcfWTF");
     }
     0%, 100% {
-        background-image: url("/assets/image/Map/Mondstadt-Genshin-Impact.png");
+        background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/Map/Mondstadt-Genshin-Impact.png?csf=1&web=1&e=U6Gex7");
     }
 }
 
 @keyframes bg-liyue {
     50% {
-        background-image: url("/assets/image/Map/Liyue2.png");
+        background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/Map/Liyue.jpg?csf=1&web=1&e=d87YMa");
     }
     0%, 100% {
-        background-image: url("/assets/image/Map/Liyue.jpg");
+        background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/Map/Liyue2.png?csf=1&web=1&e=LJ4BOM");
     }
 }
 
 @keyframes bg-inazuma {
     50% {
-        background-image: url("/assets/image/Map/Inazuma.png");
+        background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/Map/Inazuma.png?csf=1&web=1&e=OJgjV9");
     }
     0%, 100% {
-        background-image: url("/assets/image/Map/Inazuma2.jpg");
+        background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/Map/Inazuma2.jpg?csf=1&web=1&e=BaSQE8");
     }
 }
 
 @keyframes bg-sumeru {
     50% {
-        background-image: url("/assets/image/Map/Sumeru.png");
+        background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/Map/Sumeru.png?csf=1&web=1&e=nuLAFZ");
     }
     0%, 100% {
-        background-image: url("/assets/image/Map/Sumeru2.jpg");
+        background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/Map/Sumeru2.jpg?csf=1&web=1&e=ug9itM");
     }
 }
 

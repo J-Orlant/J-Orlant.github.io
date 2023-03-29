@@ -8,10 +8,12 @@ let btn_regis = document.getElementById("btn-regis");
 
 let errorMessage = "";
 
+let regex = new RegExp("^((\b[a-zA-Z]{2,40}\b)\s*){2,}$");
+
 name_inp.addEventListener("keyup", function() {
-    if(name_inp.value.length < 8) {
+    if(!(name_inp.value.trim().indexOf(" ") != -1)) {
         name_inp.parentElement.classList.add("error");
-        errorMessage = "'Email must contain 8 characters or more'"
+        errorMessage = "'Please enter the valid two name (2 words)'"
         name_inp.parentElement.style.setProperty("--error-message", errorMessage);
     } else {        
         name_inp.parentElement.classList.remove("error");

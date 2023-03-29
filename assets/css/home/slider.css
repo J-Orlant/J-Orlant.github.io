@@ -35,23 +35,23 @@
     height: 100vh;
 }
 #slider .slide-content .img-1 {
-    background-image: url("/assets/image/bg-slider.jpeg");
+    background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/bg-slider.jpeg?csf=1&web=1&e=9fp3cO");
     background-size: cover;
 }
 #slider .slide-content .img-2 {        
-    background-image: url("/assets/image/celebrate-jp-twitter-official-desktop-wallpaper-genshin.jpg");
+    background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/celebrate-jp-twitter-official-desktop-wallpaper-genshin.jpg?csf=1&web=1&e=9Y6wWn");
     background-size: cover;
 }
 #slider .slide-content .img-3 {
-    background-image: url("/assets/image/hutao-oneplus-smartphone-collab-official-desktop-wallpaper-3.jpg");
+    background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/hutao-oneplus-smartphone-collab-official-desktop-wallpaper-3.jpg?csf=1&web=1&e=gdZzrB");
     background-size: cover;
 }
 #slider .slide-content .img-4 {
-    background-image: url("/assets/image/kiana.png");
+    background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/kiana.png?csf=1&web=1&e=6ZOVkg");
     background-size: cover;
 }
 #slider .slide-content .img-5 {
-    background-image: url("/assets/image/zhongli-childe-official-wallpaper-genshin-impact.jpg");
+    background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/zhongli-childe-official-wallpaper-genshin-impact.jpg?csf=1&web=1&e=sVnhqs");
     background-size: cover;
 }
 
@@ -161,34 +161,34 @@
 }
 
 #slider .top-content .card-preview .first .image {
-    background-image: url("/assets/image/bg-slider.jpeg");
+    background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/bg-slider.jpeg?csf=1&web=1&e=9fp3cO");
     background-size: cover;
     background-position: center;
 }
 
 #slider .top-content .card-preview .second .image {
-    background-image: url("/assets/image/celebrate-jp-twitter-official-desktop-wallpaper-genshin.jpg");
+    background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/celebrate-jp-twitter-official-desktop-wallpaper-genshin.jpg?csf=1&web=1&e=9Y6wWn");
     background-size: cover;
     background-position: center;
 
 }
 
 #slider .top-content .card-preview .third .image {
-    background-image: url("/assets/image/hutao-oneplus-smartphone-collab-official-desktop-wallpaper-3.jpg");
+    background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/hutao-oneplus-smartphone-collab-official-desktop-wallpaper-3.jpg?csf=1&web=1&e=gdZzrB");
     background-size: cover;
     background-position: center;
 
 }
 
 #slider .top-content .card-preview .fourth .image {
-    background-image: url("/assets/image/kiana.png");
+    background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/kiana.png?csf=1&web=1&e=6ZOVkg");
     background-size: cover;
     background-position: center;
 
 }
 
 #slider .top-content .card-preview .fifth .image {
-    background-image: url("/assets/image/zhongli-childe-official-wallpaper-genshin-impact.jpg");
+    background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/zhongli-childe-official-wallpaper-genshin-impact.jpg?csf=1&web=1&e=sVnhqs");
     background-size: cover;
     background-position: center;
 }

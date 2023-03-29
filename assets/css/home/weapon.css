@@ -163,13 +163,21 @@
 
     width: 50%;
     height: 70%;
-    background-image: url("/assets/image/weapon-img.png");
+    background-image: url("https://binusianorg-my.sharepoint.com/personal/ida_chandra_binus_ac_id/Documents/JenshinImpekzAssets/weapon-img.png?csf=1&web=1&e=uQc44u");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 750px) {
+
+@media only screen and (max-width: 900px) {
+    .content .weapon .details .skills p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
     .content .weapon .details .val {
         padding-left: 30px;
     }
@@ -181,6 +189,11 @@
     .content .weapon .details h3 {
         font-size: 45px;
         line-height: 40px;
+    }
+
+    .content .weapon .details .skills p {
+        font-size: 14px;
+        line-height: 16px;
     }
 }
 
