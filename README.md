@@ -5,6 +5,7 @@ HCI LAB Assigment
     https://genshin.hoyoverse.com/en/home
     https://honkaiimpact3.hoyoverse.com/global/en-us/fab
     https://zenless.hoyoverse.com/en-us
+    https://www.hoyoverse.com/en-us/
 
 
 # Sumber Assets

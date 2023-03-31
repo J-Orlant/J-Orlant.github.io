@@ -12,6 +12,11 @@ footer {
     padding: 24px 100px;
 }
 
+footer img:first-child{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 footer .link {
     margin-bottom: 5px;
     display: flex;
